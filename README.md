@@ -19,7 +19,7 @@ Connect on your VPS =>
 - exit
 - su - pool
 - sudo apt-get install build-essential libssl-dev curl git-core openssh-server
-- git clone https://github.com/CryptoGreekCafe/yiimp_install_scrypt.git
+- git clone https://github.com/mineblocks/yiimp_install_scrypt.git
 - cd yiimp_install_scrypt/
 - bash install.sh (DO NOT RUN THE SCRIPT AS ROOT or SUDO)
 - At the end, you MUST REBOOT to finalize installation...
