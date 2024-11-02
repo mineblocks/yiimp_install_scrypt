@@ -41,28 +41,35 @@ USE THIS SCRIPT ON FRESH INSTALL UBUNTU Server 16.04 / 18.04 !
 1.Update system and packages
 ```
 apt update
+```
 apt upgrade
+```
 reboot
 ```
 2.Add New User
 ```
 adduser pool
+```
 adduser pool sudo
 ```
 3.Switch to new user test and exit
 ```
-su - pool
+su pool
+```
 exit
 ```
 4.Switch to the new user again and install the software
 ```
-su - pool
+su pool
+```
 sudo apt-get install build-essential libssl-dev curl git-core openssh-server
 ```
 5.Download the Yiimp installation script and install it
 ```
 git clone https://github.com/msy2008/yiimp_install_scrypt.git
+```
 cd yiimp_install_scrypt
+```
 bash install.sh
 ```
 - At the end, you MUST REBOOT to finalize installation...
@@ -78,8 +85,11 @@ git clone https://github.com/msy2008/stratum-full.git
 2.Compile
 ```
 cd stratum-full/iniparser
+```
 make
+```
 cd ..
+```
 make
 ```
 
